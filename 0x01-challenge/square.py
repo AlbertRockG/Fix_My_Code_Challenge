@@ -2,7 +2,7 @@
 """Defines a class named Square"""
 
 
-class square():
+class Square():
     """Represents a Square.
 
     Args:
@@ -12,7 +12,6 @@ class square():
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """Initialize a new square"""
         for key, value in kwargs.items():
@@ -29,6 +28,7 @@ class square():
     def __str__(self):
         """Return a printable of format of the square"""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
