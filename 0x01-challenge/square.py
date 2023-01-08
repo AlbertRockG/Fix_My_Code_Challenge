@@ -25,7 +25,7 @@ class Square():
         """Perimeter of the square"""
         return (self.width * 2) + (self.height * 2)
 
-    def __str__(self):
+    def __repr__(self):
         """Return a printable of format of the square"""
         return "{}/{}".format(self.width, self.height)
 
