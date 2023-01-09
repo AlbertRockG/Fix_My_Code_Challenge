@@ -28,7 +28,6 @@ class Square():
 
 
 if __name__ == "__main__":
-    """Create Square instance """
     s = Square(width=12)
     print(s)
     print(s.area_of_my_square())
