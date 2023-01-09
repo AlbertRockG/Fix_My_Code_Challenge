@@ -5,7 +5,7 @@
 class Square():
     """Represents a Square.
     Args:
-        width (int): The width of the square.
+        width (int): The height of the square.
         height (int): The height of the square.
     """
     width = 0
@@ -13,7 +13,6 @@ class Square():
 
     def __init__(self, *args, **kwargs):
         """Initialize a new square."""
-
         for key, value in kwargs.items():
             setattr(self, key, value)
 
